@@ -1,7 +1,7 @@
 import CheckHidingSpotForTreasureMutation from '../mutations/CheckHidingSpotForTreasureMutation';
 
 class App extends React.Component {
-  _getHidingSpotStyle() {
+  _getHidingSpotStyle(hidingSpot) {
     var color;
     if (this.props.relay.hasOptimisticUpdate(hidingSpot)) {
       color = 'lightGray';
