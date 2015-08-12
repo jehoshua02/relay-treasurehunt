@@ -39,7 +39,7 @@ export default class CheckHidingSpotForTreasureMutation extends Relay.Mutation {
         game: this.props.game.id,
       }
     }];
-  },
+  }
   getVariables() {
     return {
       id: this.props.hidingSpot.id,
